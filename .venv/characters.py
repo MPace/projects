@@ -1,0 +1,79 @@
+class Char:
+
+        def __init__(self,name,primary1,primary2,primary3,sec1,sec2,sec3,sec4):
+            self.name = name
+            self.pri1 = primary1
+            self.pri2 = primary2
+            self.pri3 = primary3
+            self.sec1 = sec1
+            self.sec2 = sec2
+            self.sec3 = sec3
+            self.sec4 = sec4
+
+elrond = Char("elrond","health", None, None, "hp", "spd", "foc", "bc")
+elladan = Char("elladan","health", None, None, "spd", "hp", "res", "dmg")
+elrohir = Char("elrohir","damage", None, None, "cc", "dmg", "cd", "foc")
+arwen = Char("arwen","health", None, None, "spd", "hp", "dmg", "bc")
+lomion = Char("lomion","damage", None, None, "cd", "dmg", "cc", "spd")
+leliel = Char("lelial", "health", None, None, "hp", "arm", "bc", "spd")
+naremiri = Char("naremiri", "health", None, None, "hp", "spd", "bc", "res")
+halbarad = Char("halbarad", "health", "focus", None, "hp", "spd", "foc", "cc")
+mirie = Char("mirie", "damage", "focus", None, "dmg","spd","foc","cc")
+gandalf = Char("gandalf", "health", None, None, "hp","spd","dmg","cc")
+gimli = Char("gimli","health",None,None,"hp","arm","bm","spd")
+legolas = Char("legolas","damage",None, None,"cd","dmg","cc","spd")
+shagrat = Char("shagrat", "damage",None,None,"dmg","cd","cc","spd")
+ghazh = Char("ghazh", "damage",None, None, "cc","spd","cd","dmg")
+rokma = Char("rokma", "damage", "focus", None, "foc", "dmg","spd","cc")
+uzhan = Char("uzhan", "health", None, None, "hp","spd","bc","res")
+grimlurz = Char("grimlurz", "damage","focus", None,"dmg","cd","cc","spd")
+bolg = Char("bolg","damage","health", None,"dmg","cd","hp","spd")
+nurraz = Char("nurraz","health",None,None,"hp","spd","res","bc")
+tordok = Char("tordok", "damage","health",None,"dmg","cd","hp","spd")
+gruhur = Char("gruhur","damage","focus",None,"dmg","cd","spd","foc")
+ugluk = Char("ugluk","health","focus",None,"hp","bc","foc","arm")
+azhak = Char("azhak","damage",None,None,"cc","dmg","cd","spd")
+mauhur = Char("mauhur","damage","health",None,"cc","cd","dmg","hp")
+dunhar = Char("dunhar","health","focus",None,"hp","foc","spd","bc")
+morzha = Char("morzha","health","focus",None,"foc","hp","spd","bc")
+tibeb = Char("tibeb","health",None,None,"hp","spd","cc","bc")
+wubete = Char("wubete","damage","health",None,"cc","cd","hp","bc")
+yeftu = Char("yeftu","damage","focus",None,"cc","cd","dmg","foc")
+robel = Char("robel","damage","focus",None,"cc","cd","hp","foc")
+bekelu = Char("bekelu","damage","focus",None,"cc","foc","cd","spd")
+denethor = Char("denethor","health",None,None,"bc","hp","bm","arm")
+boromir = Char("boromir","health","armor",None,"bc","hp","dmg","bm")
+faramir = Char("faramir","damage",None,None,"dmg","cc","bc","cd")
+herendil = Char("herendil","damage",None,None,"dmg","cc","cd","bc")
+sgtAra = Char("sgt Ara","health",None,None,"hp","bc","arm","bm")
+ggoblin = Char("Great Goblin","health","damage",None,"hp","spd","foc","bc")
+golburz = Char("golburz","damage","focus",None,"foc","spd","dmg","cc")
+chefkrazhka = Char("chef krazhka","health",None,None,"hp","spd","bc","res")
+grimpa = Char("grimpa","health",None,None,"hp","arm","bc","res")
+orfurz = Char("orfurz","damage",None,None,"cd","dmg","cc","spd")
+urdurz = Char("urdurz","health",None,None,"hp","dmg","spd","foc")
+balin = Char("balin","armor",None,None,"arm","hp","spd","bm")
+rumil = Char("rumil","armor","health",None,"arm","dmg","bm","spd")
+orophin = Char("orophin","damage",None,None,"cd","dmg","cc","spd")
+fro = Char("fro","health","armor",None,"hp","arm","bm","spd")
+eomer = Char("eomer","damage",None,None,"cd","dmg","cc","hp")
+eowyn = Char("eowyn","health","damage",None,"hp","spd","dmg","bm")
+eothain = Char("eothain","health","focus",None,"hp","bc","foc","spd")
+aeldred = Char("aeldred","health",None,None,"hp","spd","bc","res")
+wilfwyn = Char("wilfwyn","damage",None,None,"cc","dmg","cd","spd")
+strider = Char("strider","damage","health",None,"cd","dmg","cc","hp")
+frodo = Char("frodo","damage",None,None,"cc","dmg","cd","spd")
+sam = Char("sam","health","damage",None,"hp","bc","arm","res")
+merry = Char("merry","health",None,None,"hp","spd","bc","res")
+pippin = Char("pippin","health",None,None,"hp","spd","bc","res")
+bifur = Char("bifur","health","focus",None,"spd","hp","foc","bm")
+kili = Char("kili","damage","focus",None,"dmg","cc","cd","spd")
+fili = Char("fili","health",None,None,"hp","spd","bm","res")
+bbeast = Char("black beast","health",None,None,"hp","spd","arm","dmg")
+charu = Char("charu","health",None,None,"dmg","cd","cc","spd")
+rekha = Char("rheka","health",None,None,"dmg","cd","cc","spd")
+thorin = Char("thorin","damage",None,None,"dmg","cc","cd","spd")
+
+dataBox = [elrond,elladan,elrohir,arwen,lomion,naremiri,leliel,halbarad,mirie,gandalf,gimli,legolas,shagrat,ghazh,rokma,uzhan,grimlurz,bolg,nurraz,tordok,gruhur,ugluk,azhak,mauhur,
+dunhar,morzha,tibeb,wubete,yeftu,robel,bekelu,denethor,boromir,faramir,herendil,sgtAra,ggoblin,golburz,chefkrazhka,grimpa,orfurz,urdurz,balin,rumil,orophin,fro,eomer,eowyn,eothain,
+aeldred,wilfwyn,strider,frodo,sam,merry,pippin,bifur,kili,fili,bbeast,charu,rekha,thorin]
